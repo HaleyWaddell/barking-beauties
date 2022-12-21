@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+      <!--  .js plugins and widgets for design-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- plugin for contact form submission-->
+    <!-- will display 'Message sent!!' when all fields are filled in and you click submit-->
+    <script src="JS/contact-form.js"></script>
+    <link rel="stylesheet" href="styles.css">
+<!--    each page uses the font-awesome library for the social media icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contact</title>
+</head>
+<body>
+
+
+        <h1 class="top_title_left">Barking Beauties</h1>
+<!--Controls navigation bar for "Contact Us" page-->
+    <header>
+        <div class="navbar topnav">
+            <a href="index.html" class="">Home</a>
+            <div class="dropdown">
+                <a class="dropbtn">Groomers</a>
+                <div class="dropdown-content">
+                    <a href="groomers.html">All</a>
+                    <a href="zoe.html">Tina</a>
+                    <a href="jonathan.html">Jenny</a>
+                </div>
+            </div>
+            <a href="store.html">Shop</a>
+            <a href="contact.html" class="active">Contact Us</a>
+            <a href="about.html">About</a>
+        </div>
+
+    </header>
+    <br>
+    <!--h1 for page name-->
+    <h1 class="top_title">Contact Us</h1><hr>
+    <!--see source in styles.css for form template -->
+    <!--validator errors, I know ...need to fix 'element may contain at most one'
+        errors fixed 7/31, seperated each into their own label-->
+    <form>
+        <label>
+            <input id="name" type="text" class="feedback-input" placeholder="Name"/>
+            </label>
+
+            <label>
+            <input id="email" type="email" class="feedback-input" placeholder="Email"/>
+          </label>
+          <label>
+            <input id="subject" type="text" class="feedback-input" placeholder="Subject"/>
+            </label>
+
+            <label>
+            <textarea id="text" class="feedback-input" placeholder="Comments"></textarea>
+        </label>
+
+        <label>
+<!--            <input id="submit" />-->
+            <input type="button" id="submit" value="Send Message"/>
+<!--        type="submit"     value="Send"-->
+        </label>
+    </form>
+    <footer>
+        <div>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <h1 class="foot-title">Barking Beauties</h1>
+           </div>
+
+            <div>
+              <a href="https://validator.w3.org/check?uri=referer"  class="foot-title unsafe-url">Validate HTML</a>
+            <a href="https://jigsaw.w3.org/css-validator/check/referer" class="foot-links unsafe-url">Validate CSS</a>
+
+        </div>
+    </footer>
+
+    </body>
+    </html>

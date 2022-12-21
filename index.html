@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Barking Beauties</title>
+    <link rel="stylesheet" href="styles.css">
+<!--    each page uses the font-awesome library for the social media icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--  .js plugins and widgets for design-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" ></script>
+
+    <script src = "JS/fadeInElements.js"></script>
+    <script src="JS/fade-scroll.js"></script>
+
+
+
+    <!-- when the JS is added, add fades to the page that connects with the scroll-->
+</head>
+<body>
+
+    <img src="images/zoe_doodle_main3.jpg" alt="Doodle" id="first-photo" class="fade-scroll-bottom">
+<!--Controls navigation bar for "Home"-->
+  <header>
+    <div class="navbar topnav">
+        <a href="index.html" class="active">Home</a>
+        <div class="dropdown">
+            <a class="dropbtn">Groomers</a>
+            <div class="dropdown-content">
+                <a href="groomers.html">All</a>
+                <a href="tina.html">Tina</a>
+                <a href="jenny.html">Jenny</a>
+            </div>
+        </div>
+        <!--Adds the Products,Contact Us and About pages to navigation bar...to be repeated on following .html pages as needed-->
+        <a href="store.html">Products</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="about.html">About</a>
+    </div>
+
+    <br><br>
+    <br><br>
+      </header>
+    <br>
+
+    <!--     H1 title created & using fade_scroll.js -->
+    <h1 class="top_title fade-scroll-bottom">Barking Beauties</h1><hr>
+
+<!--     description of the purpose of the site and the business-->
+<!--     using fade_scroll.js for a seamless design -->
+<!--     id using the description rule -->
+    <div id="description" class="fade-scroll-bottom">
+        <p class="side_description fade-scroll-bottom">Barking Beauties is a family owned pet grooming shop.
+        We strive for excellence and comfort while making your furry friends beautiful. We are accepting new clients!</p>
+<!--     table for pricing menu -->
+<!--     using fade_scroll.js for a seamless design -->
+        <table class="side_description fade-scroll-bottom">
+            <tr>
+        	<th colspan="2">Grooming Options</th>
+            </tr>
+            <tr>
+                <td>Full groom:</td>
+                <td>Includes a 10 minute brush out, bath and nail trim.<br>
+                  <ul>
+                    <li> Small dog (under 20lbs) $35.00</li>
+                    <li> Large dog (over 20lbs) $55.00</li>
+                  </ul>
+            </tr>
+            <tr>
+                <td>Premium groom:</td>
+                <td>Includes a 20 minute brush out, deshedding bath and nail trim.<br>
+
+                  <ul>
+                    <li> Small dog (under 20lbs) $45.00</li>
+                    <li>Large dog (over 20lbs) $65.00</li>
+                  </ul>
+                  </td>
+            </tr>
+            <tr>
+                <td>Bath and nail trail:</td>
+                <td>Includes a bath and nail trim.<br>
+                  <ul>
+                    <li>  Small dog (under 20lbs) $20.00</li>
+                    <li> Large dog (over 20lbs) $30.00</li>
+                  </ul>
+                  </td>
+            </tr>
+        </table>
+    </div>
+
+<!--     using fade_scroll.js for a seamless design -->
+<!-- each_button rule applied/class centered to get centering and text alignment -->
+    <div id="each_button" class="fade-scroll-bottom">
+      <!-- Home display with image beneath, keeps user on Home page-->
+        <a href="index.html" class="label_img fade-scroll-bottom">
+            <img src="images/home1.jpg" alt="shop front" class="photo">
+            <div class="centered">Home</div>
+        </a>
+      <!-- Groomers display with image beneath, takes user to Groomers page-->
+        <a href="groomers.html" class="label_img fade-scroll-bottom">
+            <img src="images/grooming1.jpg" alt="groom and table" class="photo">
+            <div class="centered">Groomers</div>
+        </a>
+      <!-- About display with image beneath, takes user to About page-->
+        <a href="about.html" class="label_img fade-scroll-bottom">
+            <img src="images/about_groom3.jpg" alt="dog bath" class="photo">
+            <div class="centered">About</div>
+        </a>
+      <!-- Contact Us display with image beneath, takes user to Contact Us page-->
+        <a href="contact.html" class="label_img fade-scroll-bottom">
+            <img src="images/contact_phone1.jpg" alt="telephone" class="photo">
+            <div class="centered">Contact Us</div>
+        </a>
+      <!-- Shop display with image beneath, takes user to Shop page-->
+        <a href="store.html" class="label_img fade-scroll-bottom">
+            <img src="images/shop_dog1.jpg" alt="shop cover" class="photo">
+            <div class="centered">Shop</div>
+        </a>
+    </div>
+
+    <footer>
+        <div>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <h1 class="foot-title">Barking Beauties</h1>
+           </div>
+
+            <div>
+              <a href="https://validator.w3.org/check?uri=referer"  class="foot-title unsafe-url">Validate HTML</a>
+            <a href="https://jigsaw.w3.org/css-validator/check/referer" class="foot-links unsafe-url">Validate CSS</a>
+
+        </div>
+    </footer>
+
+</body>
+</html>
